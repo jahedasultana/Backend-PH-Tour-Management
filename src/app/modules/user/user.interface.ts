@@ -32,7 +32,7 @@ export interface IUser {
     phone ?: string;
     picture ?: string;
     address ?: string;
-    isDelete ?: string;
+    isDeleted?: boolean; // ✅ ঠিক টাইপ
     isActive ?: IsActive;
     isVerified ?: string;
     role : Role
